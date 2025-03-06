@@ -77,7 +77,9 @@ brew install portaudio
 - Press the **right Shift button** ⬆️ to open the GUI.
 - Click on the **Blue circle** 🔵 to open the settings window.
 - Go to Provider settings,  and set the **API URL and API KEY**.
-- Go to Models, and give the **model name**.
+- Go to Models, and set the **model name**.
+
+- Personally, I use LMStudio togheter with Tailscale
 
 #### All settings include
 
