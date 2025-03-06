@@ -1,0 +1,31 @@
+settings:
+  trigger_word_llm: agent
+  trigger_word_vllm: vision
+  llm_model: llama-3.2-1b-instruct
+  extra_language: nl
+  extra_llm_model: llama-3-chocollama-8b-instruct
+  vision_model: qwen2-vl-2b-instruct
+  client_base_url: http://localhost:7777/v1
+  client_api_key: lm-studio
+  whisper_model_name: base
+  user_prompt_llm: '{text} {clipboard}'
+  user_prompt_vllm: '{text}'
+  system_prompt_llm: You are an AI assistant designed to enhance the user’s workflow
+    by writing directly into the active text field at their cursor position. Use concise,
+    high-quality responses that seamlessly integrate with the user’s writing. Only
+    when relevant use the “Clipboard Text” contents for additional context only when
+    relevant. Otherwise, focus solely on the “User request”. Avoid unnecessary line
+    breaks and maintain a smooth, predictable experience.
+  system_prompt_vllm: You are an AI assistant designed to enhance the user’s workflow
+    by writing directly into the active text field at their cursor position. Use concise,
+    high-quality responses that seamlessly integrate with the user’s writing. When
+    relevant, incorporate clipboard contents for additional context, but otherwise,
+    focus solely on the prompt. Avoid unnecessary line breaks and maintain a smooth,
+    predictable experience.
+  user_prompt_extra_llm: '{text} {clipboard}'
+  system_prompt_extra_llm: Je bent een AI-assistent die is ontworpen om de workflow
+    van de gebruiker te verbeteren die het resultaat schrijft waar de cursor van de
+    gebruiker is. Gebruik beknopte en correcte antwoorden die naadloos integreren
+    met de tekst van de gebruiker. Gebruik alleen de inhoud van "Clipboard" wanneer
+    het relevant is. Richt je anders uitsluitend op het "Gebruikersverzoek". Vermijd
+    onnodige regelafbrekingen en hou een soepele, voorspelbare ervaring.

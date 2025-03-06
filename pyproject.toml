@@ -1,0 +1,17 @@
+[project]
+name = "lisper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faster-whisper>=1.1.1",
+    "omegaconf>=2.3.0",
+    "openai>=1.63.0",
+    "openai-whisper>=20240930",
+    "pillow>=11.1.0",
+    "pyaudio>=0.2.14",
+    "pyautogui>=0.9.54",
+    "pynput>=1.7.7",
+    "pyqt6>=6.8.1",
+]
