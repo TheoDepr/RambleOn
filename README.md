@@ -17,6 +17,8 @@ Introducing another random AI project, this time an AI python 🐍 tool to rambl
 
 I guess I keep on rambling, so here watch this demo.
 
+https://github.com/user-attachments/assets/6b7cb5ee-24c8-4248-82f6-26aa8f48caed
+
 
 ## 👌 Usage
 
